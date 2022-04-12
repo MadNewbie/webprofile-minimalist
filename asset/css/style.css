@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@200;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Anek Tamil', sans-serif;
+    color: hsl(0, 10%, 18%);
+}
+
+.container {
+    min-height: 100vh;
+    background: linear-gradient(-135deg, hsl(356, 100%, 48%) 0%, hsl(0, 0%, 0%) 100%) ;
+    padding: 10rem 20rem 5rem 20rem;
+}
+
+.profile__card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+    text-align: center;
+}
+
+.profile__card-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    transform: translateY(-50%);
+    z-index: 4;
+}
+
+.profile__card-data {
+    margin-top: -10%;
+}
+
+.profile__card-name {
+    color: hsl(356, 95%, 26%);
+    margin-bottom: .5rem;
+}
+
+.profile__card-title {
+    font-size: 1.25rem;
+}
+
+.profile__card-location {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.profile__card-socmed {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+
+.profile__card-socmed-link {
+    border-radius: 50%;
+}
+
+.profile__card-location-link {
+    color: hsl(0, 10%, 18%);
+}
+
+.twitter {
+    background: linear-gradient(45deg, #1da1f2,#0e71c8);
+    box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
+}
+
+.linkedin {
+    background: linear-gradient(45deg, #2197d6,#0077b5);
+    box-shadow: 0px 4px 30px rgba(19, 141, 212, 0.7);
+}
+
+.github {
+    background: linear-gradient(45deg, #333333, #626b73);
+    box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
+}
+
+.profile__card-socmed-icon {
+    margin: 15px;
+    color: #fff;
+    display: table-cell;
+    font-size: 1.25rem;
+    text-align: center;
+    vertical-align: middle;
+}
